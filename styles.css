@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Fjalla One', 'Courier New', Courier, monospace;
+    color: aliceblue;
+    height: 2160px;
+    animation: slidein 2sec ease-in;
+}
+
+img {
+    width: 100px;
+}
+
+#hometown {
+    height: 343px;
+    width: 720px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: url("images/1e63bfbb-city-15139-1645cdfc948.jpg");
+    align-items: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0px;
+    animation: slidein 2sec ease-in;
+
+}
+
+.textwrap {
+    background: #1D3557;
+    width: 400px;
+    padding: 10px;
+    height: auto;
+    border: 0px solid;
+    border-radius: 50px;
+    font-size: 18.72px;
+    text-shadow: 0px 0px 10px black;
+
+}
+
+#heading {
+    font-size: 32px;
+    width: 106px;
+    margin: 10px auto;
+    display: flex;
+    background-color: #457B9D;
+
+}
+#places{
+    background-color: #F1FAEE;
+    width: 720px;
+    height: 343px;
+    margin-top: 10px;
+    align-items: center;
+    margin: -20px auto;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 0px solid;
+    
+}
+
+.content{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top:10px;
+    text-shadow: 0px 0px 60px black;
+}
+.minihead{
+    width: 183px;
+    color:#1D3557;
+    font-weight: 700;
+
+}
+.desc{
+    width: 198px;
+    color:#1D3557;
+    font-weight: 400;
+}
+#guide{
+    height: 394px;
+    width: 720px;
+    background-color: #FFFFFF;
+    color:#1D3557;
+    margin: auto;
+
+    
+}
+.card{
+width:400px;
+display:flex;
+align-items: center;
+margin: 10px auto;
+padding: 20px;
+border: 0px solid;
+justify-content: space-around; 
+border-bottom: 8px solid #1D3557;
+background: url("images/giphy.gif") no-repeat;
+background-size: cover;
+text-shadow: 0px 0px 10px black;
+
+}
+
+.avatar {
+    width: 180px;
+}
+
+.img:hover{
+    width: 130px;
+    height:130px;
+}
+
+@keyframes slidein {
+0%{
+    transform: skewx(53deg) translateX(-500px);
+}
+    100%{
+        transform: skew(0deg);
+    }
+}
